@@ -22,7 +22,6 @@ body {
   --input-bg-hover: hsla(var(--main-hue), 50%, 50%, 14%);
   --input-text: #8c9aaf;
   --input-shadow: hsla(var(--main-hue), 92%, 54%, 0.169);
-  overflow-x: hidden;
 }
 
 .dark {
@@ -74,7 +73,7 @@ header {
   position: relative;
   width: 100%;
   top: 0;
-  left: 5%;
+  left: 0;
   z-index: 4;
   margin: 0 auto;
   
@@ -82,9 +81,9 @@ header {
 } 
 
 header .container {
-  min-width: 82rem;
+  /* min-width: 82rem; */
   margin: 0 auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   height: 65px;
   display: flex;
   align-items: center;
@@ -166,7 +165,7 @@ header ul {
 
 .contact {
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: var(--bg-color);
 }
 
@@ -187,7 +186,7 @@ header ul {
 .main {
   width: 100%;
   max-height: 95vh;
-  max-width: 80rem;
+  /* max-width: 80rem; */
   margin: 0 auto;
   padding: 5.5rem 1rem 1rem 1rem;
   display: inline-block;
