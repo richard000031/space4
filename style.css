@@ -630,6 +630,10 @@ textarea.contact-input ~ .icon {
     line-height: 1;
   }
 
+  .logo img {
+    height: 35px;
+    margin-left: 2rem;
+  }
 
   .logo h2 {
     font-size: 1.15rem;
