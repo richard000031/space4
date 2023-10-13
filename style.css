@@ -600,6 +600,11 @@ textarea.contact-input ~ .icon {
     margin-right: 0;
   }
 
+  .logo img {
+    height: 35px;
+    margin-left: 2rem;
+  }
+
   .nav-link {
     margin-left: 0;
   }
@@ -625,10 +630,6 @@ textarea.contact-input ~ .icon {
     line-height: 1;
   }
 
-  .logo img {
-    height: 35px;
-    margin-left: 2rem;
-  }
 
   .logo h2 {
     font-size: 1.15rem;
